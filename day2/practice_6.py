@@ -27,11 +27,8 @@ for i in range(0, x):
 x = (int)(input('縦又は横の数: '))
 
 for i in range(x):
-  
-  s = ""
-  
+  s  = ""
   for j in range(x):
-    
     if i != j:
       s = s + " "
     else:

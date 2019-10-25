@@ -7,6 +7,5 @@
 x=int(input('整数値を入力してください:　'))
 kaitou = 0
 
-while kaitou**3 < abs(x):
-  
+while kaitou**3 < abs(x): 
   kaitou += 1

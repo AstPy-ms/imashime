@@ -10,22 +10,20 @@ price   = [150, 160, 100, 120]
 
 num = []
 
+# 所持金を確認し改行
 money = int(input("所持金はいくらですか (例: 2000): "))
-
 print("")
 
+# 何を売っているのかを出力し改行
 print("当店は/",end="")
-
 for i in range(len(product)):
     print(product[i], price[i], end="円/")
-    
 print("を販売しています")
-
 print("")
     
 sum = 0
 
-for i in range(len(product)):
+for  in range(len(product)):
     
     tmp = int(input(f'{product[i]} はいくつ買いますか？(例: 1): '))
     sum += tmp * price[i]

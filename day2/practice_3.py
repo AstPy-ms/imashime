@@ -4,8 +4,7 @@
 x = (int)(input('x: '))
 i = 0;
 
-while i <= x:
-  
+while i <= x:  
   print(i)
   i += 1
     
