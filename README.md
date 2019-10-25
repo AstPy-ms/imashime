@@ -5,8 +5,8 @@
 
 ## 質問大歓迎
 
-質問は何でも受け付けています。
-プログラミングはもちろん、`情報科学若手の会`や`PyCon JP`などの参加したことのあるイベントのことでも**なんでもOKです。**
+質問は何でも受け付けています。  
+プログラミングはもちろん、[情報科学若手の会](https://wakate.org)や[PyCon JP](https://pycon.jp)などの参加したことのあるイベントのことでも**なんでもOKです。**
 
 Twitter: [Masaki Kuge](https://twitter.com/kuge_masa)
 
