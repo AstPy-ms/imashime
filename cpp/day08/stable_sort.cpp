@@ -5,7 +5,7 @@
 using namespace std;
 
 struct card {
-    char suit;
+    char mark;
     int value;
 };
 
@@ -50,7 +50,7 @@ int main(){
     card A[n], B[n];
     
     for(i=0;i<n;i++){
-        scanf("%c%d%*c", &A[i].suit, &A[i].value);
+        scanf("%c%d%*c", &A[i].mark, &A[i].value);
         B[i] = A[i];
     }
 
@@ -61,7 +61,7 @@ int main(){
         if(i > 0){
             printf(" ");
         }
-        printf("%c%d", A[i].suit, A[i].value);
+        printf("%c%d", A[i].mark, A[i].value);
     }
 
     printf("\n");
@@ -69,11 +69,11 @@ int main(){
 
     int flag = 1;
     for(i=0;i<n;i++){
-        if( 0 < i ){
+        if(i > 0){
             printf(" ");
         }
-        printf("%c%d", B[i].suit, B[i].value);
-        if( !(B[i].suit == A[i].suit && B[i].value == A[i].value) ){
+        printf("%c%d", B[i].mark, B[i].value);
+        if( !(B[i].mark == A[i].mark && B[i].value == A[i].value) ){
             flag = 0;
         }
     }
